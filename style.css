@@ -185,4 +185,15 @@ body {
   }
 }
 
+@media(max-width:700px){
+  .services{
+    margin-left: 30px;
+  }
+  .topics-header{
+    margin-left: 45px;
+  }
+  .border {
+    width: 77%;
+}
+}
 
