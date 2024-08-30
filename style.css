@@ -8,3 +8,143 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+header{
+  padding: 47px 0px;
+  margin-bottom: 84px;
+}
+.logo{
+  margin-right: 226px;
+}
+.conteiner{
+  max-width: 1272px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.nav-section-1 a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color:  #262626;
+  transition: color 0.2s ease;
+}
+ .nav-section-1 a:hover{
+  color: #4CE0D7;
+ }
+
+.navigation-button a{
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color:  #262626;
+  display: flex;
+  align-items: center;
+  transition: color 0.5s ease;
+}
+
+.navigation-button a:hover{
+  color: #4CE0D7;
+}
+
+.button{
+  padding: 7.5px 32px;
+  background-color: #4CE0D7;
+  border-radius: 40px;
+  transition: background-color 0.5s ease;
+}
+.button:hover{
+  background-color: #262626;
+}
+
+
+.nav-section-1 ul{
+  display: flex;
+  list-style: none;
+  padding: 0px 29px ;
+}
+
+.nav-section-1{
+  display: flex;
+  align-items: center;
+}
+.nav-section-2{
+  display: flex;
+  align-items: center;
+  gap: 67px;
+}
+.navigation-button{
+  margin-left: 29px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.search-button a img{
+  transition: transform 0.4s ease;
+}
+.search-button a img:hover{
+  transform: scale(0.7);
+}
+
+
+
+ 
+
+.footer-conteiner{
+  max-width: 1272px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 77px;
+}
+footer{
+  padding: 87px 0px 37px 0px;
+  
+.footer-navigation-buttons{
+  display: flex;
+}
+.footer-logo{
+  margin-right: 558px;
+}
+.footer-p{
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: left;
+  color: #262626;
+  padding-right: 28px;
+}
+.footer-button{
+  padding: 10.5px;
+}
+.footer-second-conteiner{
+  max-width: 1272px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-top: #000000 solid 1px;
+}
+.second-footer-p{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  color: #262626;
+  padding-top: 34px;
+}
+
+.footer-button a img{
+  transition: transform 0.4s ease;
+}
+.footer-button a img:hover{
+  transform: scale(1.5);
+}
