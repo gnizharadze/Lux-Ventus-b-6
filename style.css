@@ -34,7 +34,7 @@ body {
 .fashionimg {
   background: url(./Assets/trending-2/fashion-image.png);
   background-repeat: no-repeat;
-  object-fit: fill;
+  object-fit: cover;
   border-radius: 20px;
 }
 
@@ -124,6 +124,14 @@ body {
   justify-content: baseline;
   align-items: center;
   margin-top: 29px;
+  width: 160px;
+}
+
+.lastline:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-color: #4ce0d7;
 }
 
 .read-more {
@@ -131,4 +139,10 @@ body {
   font-size: 12px;
   letter-spacing: 24%;
   color: #4ce0d7;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
 }
