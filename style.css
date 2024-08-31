@@ -55,6 +55,148 @@ body {
   transform: scale(0.8);
 }
 
+/* SECTION */
+
+font-family: "Poppins", sans-serif;
+  max-width: 1440px;
+  background-color: #f9f9f9;
+}
+
+/* trending-2 */
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1204px;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
+.container {
+  display: flex;
+  gap: 46px;
+  margin-bottom: 49px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.fashionimg {
+  background: url(./Assets/trending-2/fashion-image.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.ensemblesimg {
+  background: url(./Assets/trending-2/ensembles-image.png);
+  background-repeat: no-repeat;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+.mentalimg {
+  background: url(./Assets/trending-2/mental\ health\ image.png);
+  background-repeat: no-repeat;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+.imagep {
+  background-color: #262626;
+  margin: 25px 338px 304px 34px;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fas {
+  padding: 9px 52px;
+}
+
+.ens {
+  padding: 9px 43px;
+}
+
+.mental {
+  padding: 10px 24px;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 611px;
+  padding-top: 39px;
+  color: #bcbcbc;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 36px;
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.rightside {
+  display: flex;
+  padding-right: 116px;
+}
+
+.midline h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #262626;
+  max-width: 430px;
+}
+
+.lorem {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 24%;
+  color: #262626;
+  max-width: 340px;
+}
+
+.lastline {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: 29px;
+  width: 160px;
+}
+
+.lastline:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-color: #4ce0d7;
+}
+
+.read-more {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 24%;
+  color: #4ce0d7;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+
 /* FOOTER */
 
 .footer {
