@@ -17,14 +17,12 @@ body {
   padding: 0 84px;
 }
 
-.containers {
+.cardcontainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  max-width: 1272px;
+  max-width: 1204px;
   margin: 0 auto;
-  margin-bottom: 69px;
 }
 
 /* HEADER */
@@ -53,6 +51,8 @@ body {
 .nav a:hover {
   background-color: #4ce0d7;
   border-radius: 40px;
+  transform: scale(1.2);
+  transition: 0.3s;
 }
 
 .nav img {
@@ -116,11 +116,6 @@ body {
 }
 
 /* Topics Section */
-
-.topics-section {
-  max-width: 1272px;
-  margin: 0 auto;
-}
 
 .topics-header {
   max-width: 1272px;
@@ -238,22 +233,24 @@ hr {
 /* Fashion */
 
 .main-fashion {
-  margin-bottom: 97px;
   background-color: #ffffff;
   box-shadow: 0px 6px 6px 0px #0000000d;
   border-radius: 20px;
+  margin-bottom: 97px;
+  align-items: center;
 }
 
 .topsection {
   background: url(./Assets/trending-2/Main-fashion.png);
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
   border-radius: 20px;
-  padding: 23px 922px 299px 47px;
+  padding: 23px 932px 299px 57px;
+  max-width: 1204px;
 }
 
 .fashion1 {
-  max-width: 1272px;
   padding: 10px 81px;
   background-color: #262626;
   color: #ffffff;
@@ -294,6 +291,11 @@ hr {
   font-weight: 700;
 }
 
+.hot:hover {
+  transform: scale(2) rotate(360deg);
+  transition: 3s;
+}
+
 .mid {
   display: flex;
   flex-direction: column;
@@ -316,20 +318,29 @@ hr {
 .bot {
   display: flex;
   align-items: center;
+  justify-content: baseline;
   gap: 11px;
   margin-bottom: 38px;
+  padding-left: 22px;
+  width: 160px;
+}
+
+.bot:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-color: #4ce0d7;
 }
 
 /* Trending 1 */
 
 .trending-section {
   margin-bottom: 97px;
-  padding: 50px 0;
-  max-width: 1272px;
-  margin: 0 auto;
 }
 
-.trending-title {
+.trending-header {
+  max-width: 1204px;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 32px;
   color: #262626;
@@ -339,7 +350,6 @@ hr {
   display: flex;
   gap: 59px;
   margin-top: 55px;
-  margin-bottom: 88px;
 }
 
 .card1 {
@@ -358,7 +368,7 @@ hr {
   font-size: 12px;
   background-color: #262626;
   border-radius: 40px;
-  margin: 21px 369px 220px 34px;
+  margin: 21px 388px 220px 34px;
 }
 
 .card1-bottom {
@@ -409,10 +419,11 @@ hr {
   padding: 9px 52px;
   color: #ffffff;
   border-radius: 40px;
-  margin: 21px 356px 220px 34px;
+  margin: 21px 375px 220px 34px;
   font-weight: 700;
   font-size: 12px;
 }
+
 /* trendings-2 SECTION */
 
 .container1 {
@@ -580,12 +591,6 @@ hr {
   transform: scale(1.5);
 }
 
-@media (max-width: 1445px) {
-  .border {
-    width: 85%;
-  }
-}
-
 @media (max-width: 1290px) {
   .services {
     display: grid;
@@ -630,13 +635,13 @@ hr {
   .topics-header {
     margin-left: 45px;
   }
-  .border {
-    width: 77%;
-  }
 }
 
 @media (max-width: 1200px) {
   .container {
+    flex-direction: column;
+  }
+  .footer-first {
     flex-direction: column;
   }
 }
