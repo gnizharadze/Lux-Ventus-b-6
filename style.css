@@ -17,6 +17,16 @@ body {
   padding: 0 84px;
 }
 
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1272px;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
 /* HEADER */
 
 .header {
@@ -55,18 +65,94 @@ body {
   transform: scale(0.8);
 }
 
-/* trendings-2 SECTION */
+/* Fashion, Trending 1 */
 
-.containers {
+.main-fashion {
+  margin-bottom: 97px;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 6px 0px #0000000d;
+}
+
+.topsection {
+  background: url(./Assets/trending-2/Main-fashion.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 23px 922px 299px 47px;
+}
+
+.fashion1 {
+  max-width: 1272px;
+  padding: 10px 81px;
+  background-color: #262626;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: Center;
+  border-radius: 40px;
+}
+
+.bottomsection {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 1272px;
-
-  margin: 0 auto;
-  margin-bottom: 69px;
 }
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  color: #bcbcbc;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 24px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.hotdate {
+  display: flex;
+  gap: 450px;
+}
+
+.hot {
+  color: #f25e5e;
+  font-weight: 700;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin: 35px 0px;
+  color: #262626;
+}
+
+.mid h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.midlorem {
+  max-width: 800px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.bot {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 38px;
+}
+
+@media (max-width: 700px) {
+}
+
+/* trendings-2 SECTION */
 
 .container1 {
   display: flex;
@@ -146,6 +232,7 @@ body {
 
 .rightside {
   display: flex;
+  justify-content: space-between;
   padding-right: 116px;
 }
 
@@ -236,166 +323,4 @@ body {
 }
 .footer-nav a:hover {
   transform: scale(1.5);
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.featured-article {
-    display: flex;
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
-}
-
-.featured-article img {
-    width: 50%;
-    height: auto;
-}
-
-.article-content {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.article-content .category {
-    color: #2ecc71;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.article-content h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.article-content p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.article-info {
-    font-size: 14px;
-    color: #999;
-    margin-bottom: 10px;
-}
-
-.article-info span {
-    margin-right: 10px;
-}
-
-.coming-soon {
-    color: #e74c3c;
-    font-weight: bold;
-}
-
-.read-more {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-    margin-top: auto;
-}
-
-.trending-articles h3 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.trending-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.trending-item {
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-}
-
-.trending-item img {
-    width: 100%;
-    height: auto;
-}
-
-.trending-content {
-    padding: 15px;
-}
-
-.trending-content .category {
-    color: #2ecc71;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.trending-content h4 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.trending-content p {
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-
-.trending-content .article-info {
-    font-size: 14px;
-    color: #999;
-    margin-bottom: 10px;
-}
-
-.read-more {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-}
-
-.new-image {
-    background: url("pexels-alesia-kozik-6638224.png") no-repeat center center;
-    background-size: cover;
-    width: 645.98px;
-    height: 748.01px;
-    position: absolute; 
-    top: 1901.14px;
-    left: 728.53px;
-    gap: 0px;
-    opacity: 0; 
-}
-
-@media (max-width: 768px) {
-    .featured-article {
-        flex-direction: column;
-    }
-
-    .featured-article img {
-        width: 100%;
-    }
-
-    .trending-list {
-        flex-direction: column;
-    }
-
-    .trending-item {
-        width: 100%;
-    }
 }
