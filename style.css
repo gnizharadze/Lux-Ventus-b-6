@@ -65,7 +65,7 @@ body {
   transform: scale(0.8);
 }
 
-/* Fashion, Trending 1 */
+/* Fashion */
 
 .main-fashion {
   margin-bottom: 97px;
@@ -152,6 +152,97 @@ body {
 @media (max-width: 700px) {
 }
 
+/* Trending 1 */
+
+.trending-section {
+  margin-bottom: 97px;
+  box-shadow: 0px 6px 6px 0px #0000000d;
+  padding: 50px 0;
+  max-width: 1272px;
+  margin: 0 auto;
+}
+
+.trending-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #262626;
+}
+
+.trending-cards {
+  display: flex;
+  gap: 59px;
+  margin-top: 55px;
+}
+
+.card1 {
+  background: url(./Assets/trending-2/Lifestyle-image.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.card1-top {
+  padding: 9px 50px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: #262626;
+  border-radius: 40px;
+  margin: 21px 369px 220px 34px;
+}
+
+.card1-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.topline-left {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.card1-topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 39px;
+  color: #bcbcbc;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 36px;
+  padding-right: 100px;
+  padding-left: 26px;
+  margin-bottom: 29px;
+}
+
+.card1-midline {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 34px;
+  width: 390px;
+  margin-bottom: 30px;
+}
+
+.card2 {
+  background: url(./Assets/trending-2/Summer-image.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.card2-top {
+  background-color: #262626;
+  padding: 9px 52px;
+  color: #ffffff;
+  border-radius: 40px;
+  margin: 21px 356px 220px 34px;
+  font-weight: 700;
+  font-size: 12px;
+}
 /* trendings-2 SECTION */
 
 .container1 {
