@@ -65,12 +65,183 @@ body {
   transform: scale(0.8);
 }
 
+/* First Section */
+.first-section {
+  background: url(./Assets/trending-2/firstimage.png);
+  object-fit: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  max-width: 1272px;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-bottom: 73px;
+}
+
+.magazine {
+  padding-top: 218px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.23em;
+  text-align: left;
+  margin-bottom: 22px;
+}
+
+.ventus-fashion {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 69px;
+  text-align: left;
+  margin-bottom: 19px;
+}
+
+.ventus-fashion span {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 69px;
+  text-align: left;
+  background: linear-gradient(90deg, #4ce0d7 43.06%, #8ba9f4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gossip {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  padding-bottom: 141px;
+  max-width: 490px;
+}
+
+/* Topics Section */
+
+.topics-section {
+  max-width: 1272px;
+  margin: 0 auto;
+}
+
+.topics-header {
+  max-width: 1272px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 32px;
+  color: #262626;
+}
+
+.topic-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 85px;
+  width: max-content;
+  padding: 51px 30px 30px 30px;
+  background-color: #ffffff;
+  align-items: center;
+  margin-top: 48px;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px #0000000d;
+}
+
+.topic-card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.lingerie-pic,
+.spring-pic {
+  margin-top: 51px;
+}
+
+.yoga-pic {
+  margin-top: 41px;
+}
+
+.glow-pic {
+  margin-top: 43px;
+}
+
+.ensembles-pic {
+  margin-top: 46px;
+}
+
+.skin-care-pic {
+  margin-top: 33px;
+}
+
+.topics-text-lingerie,
+.topics-text-spring,
+.topics-text-yoga,
+.topics-text-glow,
+.topics-text-ensembles,
+.topics-text-skin-care {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.topics-text-lingerie {
+  margin-top: 20px;
+}
+
+.topics-text-spring {
+  margin-top: 5px;
+}
+
+.topics-text-yoga {
+  margin-top: 18px;
+}
+
+.topics-text-glow,
+.topics-text-ensembles {
+  margin-top: 27px;
+}
+
+.topics-text-skin-care {
+  margin-top: 24px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  background-color: #4ce0d7;
+  margin-top: 29px;
+  width: 143px;
+  height: 35px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 40px;
+  color: #262626;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #262626;
+  color: #4ce0d7;
+}
+
+hr {
+  margin: 0 auto;
+  width: 1272px;
+  margin-top: 87.5px;
+  margin-bottom: 52px;
+}
+
 /* Fashion */
 
 .main-fashion {
   margin-bottom: 97px;
   background-color: #ffffff;
   box-shadow: 0px 6px 6px 0px #0000000d;
+  border-radius: 20px;
 }
 
 .topsection {
@@ -149,14 +320,10 @@ body {
   margin-bottom: 38px;
 }
 
-@media (max-width: 700px) {
-}
-
 /* Trending 1 */
 
 .trending-section {
   margin-bottom: 97px;
-  box-shadow: 0px 6px 6px 0px #0000000d;
   padding: 50px 0;
   max-width: 1272px;
   margin: 0 auto;
@@ -172,6 +339,7 @@ body {
   display: flex;
   gap: 59px;
   margin-top: 55px;
+  margin-bottom: 88px;
 }
 
 .card1 {
@@ -180,6 +348,7 @@ body {
   background-repeat: no-repeat;
   background-color: #ffffff;
   border-radius: 20px;
+  box-shadow: 0px 6px 6px 0px #0000000d;
 }
 
 .card1-top {
@@ -232,6 +401,7 @@ body {
   background-repeat: no-repeat;
   background-color: #ffffff;
   border-radius: 20px;
+  box-shadow: 0px 6px 6px 0px #0000000d;
 }
 
 .card2-top {
@@ -366,12 +536,6 @@ body {
   color: #4ce0d7;
 }
 
-@media (max-width: 1200px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
 /* FOOTER */
 
 .footer {
@@ -416,191 +580,63 @@ body {
   transform: scale(1.5);
 }
 
-
-
-/* ეს იგივე body-ია და თუ გინდათ ან body დატოვეთ თუ გინდათ ეს */
- .container {
-  font-family: poppins;
-  background-color: #F9F9F9;
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-} 
-
-
-
-/* Topics Section */
-
-
-
-.topics-header {
-  width: 282px;
-  height: 36px;
-  font-weight: 700;
-  font-size: 32px;
-  color: #262626;
-  margin-left: 84px;
-  
-}
-
-.topic-card {
-  display: flex;
-  flex-direction: column;
-  gap: 20px 85px;
-  width: max-content;
-  padding: 51px 30px 30px 30px;
-  background-color: #ffffff;
-  align-items: center;
-  margin-top: 48px;
-  border-radius: 20px;
-  box-shadow: 0 6px 6px #0000000D ;
-}
-
-.topic-card:hover {
-  transform: translateY(-10px);
-  cursor: pointer;
-}
-
-
-
-.lingerie-pic, .spring-pic{
-  margin-top: 51px;
-}
-
-.yoga-pic {
-  margin-top: 41px;
-}
-
-.glow-pic {
-  margin-top: 43px;
-}
-
-.ensembles-pic {
-  margin-top: 46px;
-}
-
-.skin-care-pic {
-  margin-top: 33px;
-}
-
-.topics-text-lingerie, .topics-text-spring, .topics-text-yoga,
-.topics-text-glow, .topics-text-ensembles, .topics-text-skin-care{
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-
-}
-
-.topics-text-lingerie {
-  margin-top: 20px;
-}
-
-.topics-text-spring {
-  margin-top: 5px;
-}
-
-.topics-text-yoga {
-  margin-top: 18px;
-}
-
-.topics-text-glow, .topics-text-ensembles {
-  margin-top: 27px;
-}
-
-.topics-text-skin-care {
-  margin-top: 24px;
-}
-
-.services {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.button {
-  background-color: #4CE0D7;
-  margin-top: 29px;
-  width: 143px;
-  height: 35px;
-  text-align: center;
-  padding-top: 7px;
-  border-radius: 40px;
-  color: #262626;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 18px;
-  text-decoration: none;
-}
-
-.button:hover {
-  background-color: #262626;
-  color: #4CE0D7;
-}
-
-.border {
-  border: 1px solid #BCBCBC;;
-  width: 1267px;
-  margin-top: 87.5px;
-  margin-bottom: 52px;
-  margin-left: 85px;
-
-}
-
-
-@media (max-width:1445px) {
+@media (max-width: 1445px) {
   .border {
-      width: 85%;
+    width: 85%;
   }
 }
 
-@media (max-width:1290px) {
+@media (max-width: 1290px) {
   .services {
-      display: grid;
-      grid-template-columns: repeat(3, 225px);
-      justify-content: center;
-      margin-left: 90px;
-  }
-  
-  .topic-card {
-      padding: 35px 30px 30px 30px;
-  }
-  
-  .topics-header{
-      text-align: center;
-      width: 90%;
-  }
-}
-
-@media (max-width:1140px) {
-  .services {
-      display: grid;
-      grid-template-columns: repeat(2, 225px);
-      justify-content: center;
-      margin-left: 90px;
-  }
-
-}
-
-@media(max-width:900px){
-  .topics-header{
-      font-size: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 225px);
+    justify-content: center;
+    margin-left: 90px;
   }
 
   .topic-card {
-      padding: 3px 30px 30px 30px;
+    padding: 35px 30px 30px 30px;
+  }
+
+  .topics-header {
+    text-align: center;
+    width: 90%;
   }
 }
 
-@media(max-width:700px){
-  .services{
+@media (max-width: 1140px) {
+  .services {
+    display: grid;
+    grid-template-columns: repeat(2, 225px);
+    justify-content: center;
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 900px) {
+  .topics-header {
+    font-size: 30px;
+  }
+
+  .topic-card {
+    padding: 3px 30px 30px 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .services {
     margin-left: 30px;
   }
-  .topics-header{
+  .topics-header {
     margin-left: 45px;
   }
   .border {
     width: 77%;
-}
+  }
 }
 
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+}
