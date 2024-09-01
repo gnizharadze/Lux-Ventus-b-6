@@ -6,7 +6,414 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "sans-serif";
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 84px;
+}
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1272px;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 37px;
+  padding-bottom: 47px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.nav a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #262626;
+  padding: 9px 32px;
+}
+
+.nav a:hover {
+  background-color: #4ce0d7;
+  border-radius: 40px;
+}
+
+.nav img {
+  margin-left: 67px;
+  padding: 0px;
+  transition: transform 0.4s ease;
+}
+
+.nav img:hover {
+  transform: scale(0.8);
+}
+
+/* Fashion */
+
+.main-fashion {
+  margin-bottom: 97px;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 6px 0px #0000000d;
+}
+
+.topsection {
+  background: url(./Assets/trending-2/Main-fashion.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 23px 922px 299px 47px;
+}
+
+.fashion1 {
+  max-width: 1272px;
+  padding: 10px 81px;
+  background-color: #262626;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: Center;
+  border-radius: 40px;
+}
+
+.bottomsection {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  color: #bcbcbc;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 24px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.hotdate {
+  display: flex;
+  gap: 450px;
+}
+
+.hot {
+  color: #f25e5e;
+  font-weight: 700;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin: 35px 0px;
+  color: #262626;
+}
+
+.mid h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.midlorem {
+  max-width: 800px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.bot {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 38px;
+}
+
+@media (max-width: 700px) {
+}
+
+/* Trending 1 */
+
+.trending-section {
+  margin-bottom: 97px;
+  box-shadow: 0px 6px 6px 0px #0000000d;
+  padding: 50px 0;
+  max-width: 1272px;
+  margin: 0 auto;
+}
+
+.trending-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #262626;
+}
+
+.trending-cards {
+  display: flex;
+  gap: 59px;
+  margin-top: 55px;
+}
+
+.card1 {
+  background: url(./Assets/trending-2/Lifestyle-image.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.card1-top {
+  padding: 9px 50px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: #262626;
+  border-radius: 40px;
+  margin: 21px 369px 220px 34px;
+}
+
+.card1-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.topline-left {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.card1-topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 39px;
+  color: #bcbcbc;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 36px;
+  padding-right: 100px;
+  padding-left: 26px;
+  margin-bottom: 29px;
+}
+
+.card1-midline {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 34px;
+  width: 390px;
+  margin-bottom: 30px;
+}
+
+.card2 {
+  background: url(./Assets/trending-2/Summer-image.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.card2-top {
+  background-color: #262626;
+  padding: 9px 52px;
+  color: #ffffff;
+  border-radius: 40px;
+  margin: 21px 356px 220px 34px;
+  font-weight: 700;
+  font-size: 12px;
+}
+/* trendings-2 SECTION */
+
+.container1 {
+  display: flex;
+  gap: 46px;
+  width: 100%;
+  margin-bottom: 49px;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 6px 0px #0000000d;
+  border-radius: 20px;
+}
+
+.fashionimg {
+  background: url(./Assets/trending-2/fashion-image.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.ensemblesimg {
+  background: url(./Assets/trending-2/ensembles-image.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.mentalimg {
+  background: url(./Assets/trending-2/mental\ health\ image.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.imagep {
+  background-color: #262626;
+  margin: 25px 338px 304px 34px;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fas {
+  padding: 9px 52px;
+}
+
+.ens {
+  padding: 9px 43px;
+}
+
+.mental {
+  padding: 10px 24px;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 611px;
+  padding-top: 39px;
+  color: #bcbcbc;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 36px;
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.rightside {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 116px;
+}
+
+.midline h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #262626;
+  max-width: 430px;
+}
+
+.lorem {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 24%;
+  color: #262626;
+  max-width: 340px;
+}
+
+.lastline {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: 29px;
+  width: 160px;
+}
+
+.lastline:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+  text-decoration: underline;
+  text-decoration-color: #4ce0d7;
+}
+
+.read-more {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 24%;
+  color: #4ce0d7;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 40px 40px 0px 0px;
+  box-shadow: 6px 0px 6px 0px #0000000d;
+}
+
+.footer-first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 87px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-nav p {
+  font-weight: 700;
+  font-size: 26px;
+  color: #262626;
+}
+
+.footer hr {
+  margin-top: 77px;
+  margin-bottom: 34px;
+}
+
+.footer-second {
+  margin-bottom: 37px;
+}
+
+.footer-nav a {
+  transition: transform 0.4s ease;
+}
+.footer-nav a:hover {
+  transform: scale(1.5);
 }
 
 
